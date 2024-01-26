@@ -8,6 +8,6 @@ export const pool = createPool({
   host: "mysql",
   user: process.env.DB_USER,
   password: process.env.DB_PASSWORD,
-  port: 3306, // Ensure port is parsed as an integer
+  port: 3306,
   database: "sampledb",
 });
